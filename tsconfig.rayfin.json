@@ -1,0 +1,8 @@
+{
+  "extends": "./rayfin/tsconfig.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.rayfin.tsbuildinfo",
+    "noEmit": true
+  },
+  "include": ["rayfin/data/**/*.ts"]
+}
